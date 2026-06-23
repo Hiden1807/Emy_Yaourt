@@ -1,8 +1,28 @@
-body{
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
     text-align: center;
-    text-decoration: none;
+    color: #222;
+    background: #fffaf8;
+    line-height: 1.5;
 }
-a{
+
+main {
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+a {
     text-decoration: none;
-    color: blue;
+    color: #0b66ff;
+    font-weight: 600;
 }
